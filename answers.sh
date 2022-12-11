@@ -29,3 +29,15 @@ UPDATE graduates SET Graduation = "08/09/2018" WHERE Name = "Layal";
 	
 DELETE FROM students WHERE Name = "Layal";
 
+
+CREATE TABLE newtable AS
+	SELECT employees.Name, companies.Name, companies.Date
+	FROM employees JOIN companies
+	On employees.Company = companies.Name;
+	
+SELECT * FROM employees WHERE Date <2000;
+SELECT * FROM Company WHERE Role = "graphic designer"
+
+
+
+
