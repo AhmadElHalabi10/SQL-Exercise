@@ -8,8 +8,8 @@ We're going to create tables, insert, edit, and remove data in a database.
 
 Please make sure that you install the following before you begin:
 
-* [SQLite3](https://www.sqlite.org/download.html)
-* [DB Browser for SQLite](https://sqlitebrowser.org/)
+- [SQLite3](https://www.sqlite.org/download.html)
+- [DB Browser for SQLite](https://sqlitebrowser.org/)
 
 You will also need basic knowledge of SQL.
 
@@ -19,19 +19,19 @@ You can also refer to w3schools tutorials [here](https://www.w3schools.com/sql/d
 
 ## Goals
 
-* Control a full database
-* Understand tables in database
-* Practice writing simple SQL queries
-* **Competencies**:
-  * Databases
-  * SQL
+- Control a full database
+- Understand tables in database
+- Practice writing simple SQL queries
+- **Competencies**:
+  - Databases
+  - SQL
 
 ## Instructions
 
-* Fork this repo
-* Clone it on your laptop
-* Open DB Browser for SQLite, Press **Open Database** in top menu, and select the file named **myDatabase** in the repo
-* For each of the questions below, write in **answers.sh** the query you used to solve the problem
+- Fork this repo
+- Clone it on your laptop
+- Open DB Browser for SQLite, Press **Open Database** in top menu, and select the file named **myDatabase** in the repo
+- For each of the questions below, write in **answers.sh** the query you used to solve the problem
 
 Example:
 
@@ -49,12 +49,12 @@ In the **Execute SQL** tab, do the following: 1. Get all the names of students i
 
 Layal graduated on 08/09/2018. Create a table **graduates** that includes:
 
-* ID, Integer, Not Null, Primary key, Auto incerement
-* Name, Text, Not Null, Unique
-* Age, Integer
-* Gender, Text
-* Points, Integer
-* Graduation, Text that will point to the date of the graduation
+- ID, Integer, Not Null, Primary key, Auto incerement
+- Name, Text, Not Null, Unique
+- Age, Integer
+- Gender, Text
+- Points, Integer
+- Graduation, Text that will point to the date of the graduation
 
 In the **Execute SQL** tab, do the following:
 
@@ -67,15 +67,15 @@ In the **Execute SQL** tab, do the following:
 
 Now, open the database **carDealership**. You will find 2 tables:
 
-* Companies
-  * ID
-  * Name of the company
-  * Date when the company was made
-* Employees
-  * ID
-  * Name of the employee
-  * Role of the employee
-  * Company of the employee
+- Companies
+  - ID
+  - Name of the company
+  - Date when the company was made
+- Employees
+  - ID
+  - Name of the employee
+  - Role of the employee
+  - Company of the employee
 
 In the **Execute SQL** tab, do the following:
 
